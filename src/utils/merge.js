@@ -4,7 +4,7 @@ export default function(target) {
     for (let prop in source) {
       if (source.hasOwnProperty(prop)) {
         let value = source[prop];
-        if (value !== undefined) {
+        if (value !== undefined) {   asdfasdasdf
           target[prop] = value;
         }
       }
